@@ -59,7 +59,7 @@ function Projects() {
 
   return (
     <div className="min-h-screen bg-black text-white font-stylish p-10">
-      <h2 className="text-4xl font-bold mb-8 mt-56 md:mt-28 text-center">My Projects</h2>
+      <h2 className="text-4xl font-bold mb-8 mt-64 md:mt-28 text-center">My Projects</h2>
       <Carousel
         ref={carouselRef}
         responsive={responsive}
