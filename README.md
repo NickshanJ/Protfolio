@@ -1,8 +1,8 @@
-Movie Search Application
+Portfolio of J. Nickshan
 
 Welcome to my personal portfolio! This project showcases my skills as a MERN Full Stack Developer and provides a platform for visitors to get in touch with me, explore my work, and learn more about me.
 
-🚀 Features
+🚀 Features Dynamic Design: 
 
 Dynamic Design: Responsive layout optimized for desktop and mobile views.
 
@@ -16,7 +16,7 @@ Social Media Integration: Quick links to LinkedIn, GitHub, Email, and WhatsApp.
 
 Optimized Styling: Built with TailwindCSS for sleek and consistent designs.
 
-🎨 Pages and Components
+🎨 Pages and Components HomePage: 
 
 HomePage: Introduction with a dynamic typing effect to highlight professional roles.
 
@@ -24,8 +24,9 @@ About Page: Showcasing a detailed biography with a professional profile picture 
 
 Contact Page: Get in touch via a secure and user-friendly contact form.
 
-🛠️ Technologies Used
-Front-End: React.js, TailwindCSS
+🛠️ Technologies Used Front-End: 
+
+React.js, TailwindCSS
 
 Back-End: EmailJS for handling contact forms
 
@@ -33,7 +34,8 @@ Icons: React Icons
 
 Hosting: (Add details here, e.g., Vercel, Netlify, or GitHub Pages)
 
-📂 Folder Structure
+📂 Folder Structure 
+
 .
 ├── src
 │   ├── assets/                # Images and static files (e.g., profile image, CV)
@@ -52,39 +54,32 @@ Hosting: (Add details here, e.g., Vercel, Netlify, or GitHub Pages)
 │   └── assets/                # Public assets (e.g., Nickshan_Resume.pdf)
 └── .env                       # Environment variables (not included in source control)
 
-🌟 Getting Started
 
-Follow these instructions to run the portfolio locally:
+🌟 Getting Started Follow these instructions to run the portfolio locally:
 
-Prerequisites
-Basic knowledge of React.js
+Prerequisites Basic knowledge of React.js
 
-Installation
+Installation:
 
-Clone the repository:
+git clone https://github.com/NickshanJ/Protfolio.git
 
-git clone <repository-url>
-cd <repository-folder>
+cd Protfolio
 
-Install dependencies:
-npm install
-Create a .env file in the root directory and add the following:
+Install dependencies: npm install Create a .env file in the root directory and add the following:
 
-env
 REACT_APP_SERVICE_ID=your_service_id
 REACT_APP_TEMPLATE_ID=your_template_id
 REACT_APP_USER_ID=your_user_id
 
 Start the development server:
 
-npm start
-Visit http://localhost:3000 in your browser to view the portfolio.
+npm start Visit http://localhost:3000 in your browser to view the portfolio.
 
-🛡️ Security
+🛡️ Security 
 
 Your EmailJS keys (Service ID, Template ID, and User ID) are securely stored using environment variables and are not exposed in the repository. Ensure the .env file is listed in .gitignore.
 
-📬 Contact
+📬 Contact 
 
 Feel free to reach out or connect with me:
 
@@ -96,7 +91,7 @@ Email: nickshan001@gmail.com
 
 WhatsApp: Message me
 
-🎉 Acknowledgments
+🎉 Acknowledgments 
 
 Special thanks to TailwindCSS and React Icons for enhancing the UI/UX.
 
