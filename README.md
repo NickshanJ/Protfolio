@@ -1,4 +1,4 @@
-Portfolio of J. Nickshan
+Movie Search Application
 
 Welcome to my personal portfolio! This project showcases my skills as a MERN Full Stack Developer and provides a platform for visitors to get in touch with me, explore my work, and learn more about me.
 
