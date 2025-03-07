@@ -1,7 +1,9 @@
 Portfolio of J. Nickshan
+
 Welcome to my personal portfolio! This project showcases my skills as a MERN Full Stack Developer and provides a platform for visitors to get in touch with me, explore my work, and learn more about me.
 
 🚀 Features
+
 Dynamic Design: Responsive layout optimized for desktop and mobile views.
 
 Interactive UI: Engaging animations, hover effects, and modals to enhance user experience.
@@ -15,6 +17,7 @@ Social Media Integration: Quick links to LinkedIn, GitHub, Email, and WhatsApp.
 Optimized Styling: Built with TailwindCSS for sleek and consistent designs.
 
 🎨 Pages and Components
+
 HomePage: Introduction with a dynamic typing effect to highlight professional roles.
 
 About Page: Showcasing a detailed biography with a professional profile picture and download link for the CV.
@@ -50,6 +53,7 @@ Hosting: (Add details here, e.g., Vercel, Netlify, or GitHub Pages)
 └── .env                       # Environment variables (not included in source control)
 
 🌟 Getting Started
+
 Follow these instructions to run the portfolio locally:
 
 Prerequisites
@@ -77,9 +81,11 @@ npm start
 Visit http://localhost:3000 in your browser to view the portfolio.
 
 🛡️ Security
+
 Your EmailJS keys (Service ID, Template ID, and User ID) are securely stored using environment variables and are not exposed in the repository. Ensure the .env file is listed in .gitignore.
 
 📬 Contact
+
 Feel free to reach out or connect with me:
 
 LinkedIn: J. Nickshan
@@ -91,6 +97,7 @@ Email: nickshan001@gmail.com
 WhatsApp: Message me
 
 🎉 Acknowledgments
+
 Special thanks to TailwindCSS and React Icons for enhancing the UI/UX.
 
 Powered by EmailJS for effortless form handling.
