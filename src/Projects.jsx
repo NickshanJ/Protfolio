@@ -11,6 +11,7 @@ import MemoryGame from "./image/Memory Game.png";
 import Landing2 from "./image/Landing 2.png";
 import PasswordReset from "./image/Password Reset.png";
 import VehicleRental from "./image/Vehicle Rental.png";
+import PortfolioImg from "./image/PortfolioImg.png";
 
 const projects = [
   { url: "https://online-vehicle-rental.netlify.app/", img: VehicleRental, alt: "Vehicle Rental Service", text: "Online Vehicle Page" },
@@ -21,6 +22,7 @@ const projects = [
   { url: "https://password-reset-0.netlify.app/", img: PasswordReset, alt: "Product Preview Card Component", text: "Password Reset" },
   { url: "https://coachingpage0.netlify.app/", img: Landing2, alt: "Product Preview Card Component", text: "Landing Page 2" },
   { url: "https://landing2page.netlify.app/", img: LandingPage, alt: "Product Preview Card Component", text: "Landing Page" },
+  { url: "https://nickshanjportfolio.netlify.app/", img: PortfolioImg, alt: "Nickshan J Portfolio", text: "PortFolio" },
 ];
 
 const responsive = {
