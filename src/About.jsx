@@ -1,6 +1,6 @@
 import React from "react";
 import profileImage from "./image/Nickshan.jpg";
-import resumePDF from "./assets/Nickshan Resume.pdf";
+import resumePDF from "./assets/Nickshan Resume FS.pdf";
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaDownload } from "react-icons/fa";
 
 function About() {
@@ -18,13 +18,13 @@ function About() {
       <div className="w-full md:w-[60%] text-center md:text-left text-white space-y-6">
         <h3 className="text-[33px] text-[#FEE715FF] font-stylish">Hello! I'm Nickshan</h3>
         <p className="text-[22px] font-stylish">
-          I'm a passionate Full Stack Developer with a talent for turning ideas into engaging digital experiences. 
-          With a passion for both front-end and back-end development, I take delight in developing aesthetically 
-          beautiful and functioning websites that appeal to visitors. With knowledge in HTML5, CSS3, JavaScript, 
-          Tailwind, React.js, Node.js, and Git, I am eager to contribute new ideas and enthusiasm to any team. 
-          What I enjoy most about web development is the combination of creativity and rationality required. 
-          Every step in the process provides an opportunity to learn and grow. I am passionate about staying current 
-          with industry developments and constantly developing my skills. Feel free to connect with me.
+        I'm a passionate Full Stack Developer with a talent for developing ideas into great digital experiences.
+         I enjoy designing visually beautiful and user-friendly websites, and I am interested in both front-end 
+         and back-end development.   Having worked with HTML5, CSS3, JavaScript, Tailwind, React.js, Node.js, 
+         Mongo DB, and Git, I'm excited to add new perspectives and energy to any team. What I value most about 
+         web development is the combination of creativity and rationality required.Each step of the process provides
+          an opportunity for learning and growth.   I am interested about staying current with industry innovations and 
+          continually developing my skills.   Please feel free to contact me..
         </p>
         <div className="flex justify-center md:justify-start space-x-4">
           <a
