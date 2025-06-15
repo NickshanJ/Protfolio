@@ -27,24 +27,6 @@ const projects = [
     skills: ["HTML", "JavaScript", "React", "Node", "MongoDB"],
     codeLink: "https://github.com/example/movie-search-code",
   },
-  {
-    url: "https://moviesearch00.netlify.app/",
-    img: MoviesSearch,
-    alt: "Movies Search: Your Movie Journey Starts Here!",
-    text: "Movies Search: Your Movie Journey Starts Here!",
-    description: "This is a brief description of the Movie Search application.",
-    skills: ["HTML", "JavaScript", "React", "Node", "MongoDB"],
-    codeLink: "https://github.com/example/movie-search-code",
-  },
-  {
-    url: "https://moviesearch00.netlify.app/",
-    img: MoviesSearch,
-    alt: "Movies Search: Your Movie Journey Starts Here!",
-    text: "Movies Search: Your Movie Journey Starts Here!",
-    description: "This is a brief description of the Movie Search application.",
-    skills: ["HTML", "JavaScript", "React", "Node", "MongoDB"],
-    codeLink: "https://github.com/example/movie-search-code",
-  },
 ]
 
 const responsive = {
