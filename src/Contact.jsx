@@ -117,7 +117,7 @@ function Contact() {
 
         {/* Right side */}
         <div className="text-gray-300">
-          nickshan001@gmail.com
+         Email - nickshan001@gmail.com
         </div>
 
         {/* Attribution */}
