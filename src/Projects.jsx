@@ -25,7 +25,9 @@ const projects = [
     description:
       "This is a brief description of the Online Vehicle Rental Service.",
     skills: ["HTML", "JavaScript", "React", "Node", "MongoDB"],
-    codeLink: "https://github.com/example/vehicle-rental-code",
+     codeLinks: {
+    frontend: "https://github.com/example/movie-search-frontend",
+    backend: "https://github.com/example/movie-search-backend",
   },
   {
     url: "https://moviesearch00.netlify.app/",
@@ -34,7 +36,10 @@ const projects = [
     text: "Movies Search: Your Movie Journey Starts Here!",
     description: "This is a brief description of the Movies Search project.",
     skills: ["HTML", "CSS", "JavaScript", "React"],
-    codeLink: "https://github.com/example/movies-search-code",
+    codeLinks: {
+      frontend: "https://github.com/example/movies-search-frontend",
+      backend: "https://github.com/example/movies-search-backend",
+    },
   },
   {
     url: "https://router0.netlify.app/",
