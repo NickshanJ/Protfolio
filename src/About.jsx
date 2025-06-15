@@ -1,6 +1,6 @@
 import React from "react";
 import profileImage from "./image/About Page.png";
-import resumePDF from "./assets/Nickshan Resume FS.pdf";
+import resumePDF from "./assets/Resume - Nickshan J.pdf";
 import {
   FaLinkedin,
   FaGithub,
