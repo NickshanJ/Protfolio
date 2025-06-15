@@ -11,7 +11,7 @@ function About() {
         <img
           src={profileImage}
           alt="Profile"
-          className="rounded-full shadow-lg w-[60%] md:w-1/2 aspect-auto border-2 border-[#fee71539]"
+          className="shadow-lg w-[100%] md:w-1/2 aspect-auto border-2 border-[#fee71539]"
         />
       </div>
       {/* Right side text */}
