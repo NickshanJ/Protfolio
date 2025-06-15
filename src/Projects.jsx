@@ -25,9 +25,10 @@ const projects = [
     description:
       "This is a brief description of the Online Vehicle Rental Service.",
     skills: ["HTML", "JavaScript", "React", "Node", "MongoDB"],
-     codeLinks: {
-    frontend: "https://github.com/example/movie-search-frontend",
-    backend: "https://github.com/example/movie-search-backend",
+    codeLinks: {
+      frontend: "https://github.com/example/movie-search-frontend",
+      backend: "https://github.com/example/movie-search-backend",
+    },
   },
   {
     url: "https://moviesearch00.netlify.app/",
@@ -146,9 +147,13 @@ function Projects() {
               alt={project.alt}
               className="rounded-lg h-50 object-cover mb-4"
             />
-            <p className="text-center font-semibold text-xl">{project.text}</p>
-            {/* NEWLY ADDED */}
-            <p className="text-gray-400 mt-2">{project.description}</p>
+            <p className="text-center font-semibold text-xl">
+              {project.text}
+            </p>
+
+            <p className="text-gray-400 mt-2">
+              {project.description}
+            </p>
 
             <ul className="flex gap-2 mt-2">
               {project.skills &&
@@ -159,15 +164,30 @@ function Projects() {
                 ))}
             </ul>
 
-            <a
-              href={project.codeLink}
-              target="_blank"
-              rel="noreferrer"
-              className="text-blue-500 mt-2 underline"
-              onClick={(e) => e.stopPropagation()} // to avoid triggering parent click
-            >
-              View Source Code
-            </a>
+            {/* Code Links */}
+            {project.codeLinks && (
+              <div className="flex gap-4 mt-2">
+                <a
+                  href={project.codeLinks.frontend}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-500 underline"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Frontend
+                </a>
+                <a
+                  href={project.codeLinks.backend}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-500 underline"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Backend
+                </a>
+              </div>
+            )}
+
           </div>
         ))}
       </Carousel>
