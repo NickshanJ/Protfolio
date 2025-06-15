@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
-import config from './config';
-import Modal from './Modal';
+import React, { useState } from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import emailjs from "emailjs-com";
+import config from "./config";
+import Modal from "./Modal";
 
 function Contact() {
   const [modalMessage, setModalMessage] = useState('');
@@ -21,12 +21,12 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          setModalMessage('Message sent successfully!');
-          setIsModalVisible(true); 
+          setModalMessage("Message sent successfully!");
+          setIsModalVisible(true);
         },
         (error) => {
           console.log(error.text);
-          setModalMessage('An error occurred. Please try again.');
+          setModalMessage("An error occurred. Please try again.");
           setIsModalVisible(true);
         }
       );
@@ -39,7 +39,7 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-gray-300">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-gray-300">
       <div className="w-full max-w-2xl p-8">
         <h2 className="text-center text-3xl mt-10 font-stylish mb-6">
           Get in touch with Me
@@ -54,7 +54,7 @@ function Contact() {
                 type="text"
                 id="from_name"
                 name="from_name"
-                className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-white p-2"
+                className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-gray-100 p-2"
                 required
               />
             </div>
@@ -66,7 +66,7 @@ function Contact() {
                 type="email"
                 id="reply_to"
                 name="reply_to"
-                className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-white p-2"
+                className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-gray-100 p-2"
                 required
               />
             </div>
@@ -79,7 +79,7 @@ function Contact() {
               id="message"
               name="message"
               rows="3"
-              className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-white p-2"
+              className="w-full bg-transparent border-b border-gray-500 focus:outline-none focus:border-gray-100 p-2"
             ></textarea>
           </div>
           <div className="text-center text-xl mt-4">
@@ -91,7 +91,12 @@ function Contact() {
             </button>
           </div>
         </form>
-        <div className="flex justify-center mt-10 space-x-6">
+      </div>
+
+      {/* Footer Section */}
+      <footer className="w-full px-8 py-4 border-t border-gray-500 flex justify-between items-center">
+        {/* Left side */}
+        <div className="flex space-x-6">
           <a
             href="https://www.linkedin.com/in/nickshanj/"
             target="_blank"
@@ -108,22 +113,25 @@ function Contact() {
           >
             <FaGithub size={32} />
           </a>
-          <a
-            href="mailto:nickshan001@gmail.com"
-            className="text-gray-300 hover:scale-110 transition-transform hover:text-red-600"
-          >
-            <FaEnvelope size={32} />
-          </a>
-          <a
-            href="https://wa.me/7358176388"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:scale-110 transition-transform hover:text-green-400"
-          >
-            <FaWhatsapp size={32} />
-          </a>
         </div>
-      </div>
+
+        {/* Right side */}
+        <div className="text-gray-300">
+          nickshan001@gmail.com
+        </div>
+
+        {/* Attribution */}
+        <div className="text-gray-500 text-center mt-4">
+          Illustrations by <a
+            href="https://storyset.com/"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="hover:underline"
+          >
+            Storyset
+          </a>.
+        </div>
+      </footer>
 
       <Modal
         isVisible={isModalVisible}
