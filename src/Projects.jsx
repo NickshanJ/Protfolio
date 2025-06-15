@@ -16,13 +16,13 @@ const projects = [
     url: "https://online-vehicle-rental.netlify.app/",
     img: VehicleRental,
     alt: "Vehicle Rental Service",
-    text: "Online Vehicle Page",
+    text: "Online Vehicle Rental Page",
     description:
-      "This is a brief description of the Online Vehicle Rental Service.",
-    skills: ["HTML", "JavaScript", "React", "Node", "MongoDB"],
+      "An online platform to search and book vehicles for rent with ease.",
+    skills: ["MongoDB", "Express", "React", "Node", "Tailwind CSS", "Razorpay"],
     codeLinks: {
-      frontend: "https://github.com/example/movie-search-frontend",
-      backend: "https://github.com/example/movie-search-backend",
+      frontend: "https://github.com/NickshanJ/Vehicle-Rental.git",
+      backend: "https://github.com/NickshanJ/Vehicle-rental-server.git",
     },
   },
   {
@@ -30,35 +30,35 @@ const projects = [
     img: MoviesSearch,
     alt: "Movies Search: Your Movie Journey Starts Here!",
     text: "Movies Search: Your Movie Journey Starts Here!",
-    description: "This is a brief description of the Movies Search project.",
-    skills: ["HTML", "CSS", "JavaScript", "React"],
+    description: "Search and view movie details with pagination, routing, filtering, and favorites in a React application.",
+    skills: ["React", "React Router", "HTML", "CSS", "JavaScript", "Tailwind CSS"],
     codeLinks: {
-      frontend: "https://github.com/example/movies-search-frontend",
-      backend: "https://github.com/example/movies-search-backend",
+      frontend: "https://github.com/NickshanJ/Movie-Search.git",
+      backend: "https://github.com/NickshanJ/Movie-Search.git",
     },
   },
   {
-    url: "https://moviesearch00.netlify.app/",
+    url: "https://student-teacher-portal.netlify.app/",
     img: Portal,
-    alt: "Movies Search: Your Movie Journey Starts Here!",
-    text: "Movies Search: Your Movie Journey Starts Here!",
-    description: "This is a brief description of the Movies Search project.",
-    skills: ["HTML", "CSS", "JavaScript", "React"],
+    alt: "Student Teacher Portal",
+    text: "Student Teacher Portal",
+    description: "A platform where students and teachers connect, learn, and grow together.",
+    skills: ["MongoDB", "Express", "React", "Node", "Tailwind CSS"],
     codeLinks: {
-      frontend: "https://github.com/example/movies-search-frontend",
-      backend: "https://github.com/example/movies-search-backend",
+      frontend: "https://github.com/NickshanJ/Student-Teacher-Portal/tree/main/frontend",
+      backend: "https://github.com/NickshanJ/Student-Teacher-Portal/tree/main/backend",
     },
   },
   {
-    url: "https://moviesearch00.netlify.app/",
+    url: "https://event-managementsystem.netlify.app/",
     img: Event,
-    alt: "Movies Search: Your Movie Journey Starts Here!",
-    text: "Movies Search: Your Movie Journey Starts Here!",
-    description: "This is a brief description of the Movies Search project.",
-    skills: ["HTML", "CSS", "JavaScript", "React"],
+    alt: "Event Management System",
+    text: "Event Management System",
+    description: "A dynamic platform to explore, reserve, and celebrate events that bring people together.",
+    skills: ["MongoDB", "Express", "React", "Node", "Tailwind CSS"],
     codeLinks: {
-      frontend: "https://github.com/example/movies-search-frontend",
-      backend: "https://github.com/example/movies-search-backend",
+      frontend: "https://github.com/NickshanJ/Event-Management-System/tree/main/frontend",
+      backend: "https://github.com/NickshanJ/Event-Management-System/tree/main/backend",
     },
   },
 ];
@@ -148,7 +148,7 @@ function Projects() {
                   href={project.codeLinks.frontend}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-blue-500 underline"
+                  className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Frontend
@@ -157,7 +157,7 @@ function Projects() {
                   href={project.codeLinks.backend}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-blue-500 underline"
+                  className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Backend
