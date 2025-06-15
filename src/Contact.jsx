@@ -94,7 +94,7 @@ function Contact() {
       </div>
 
       {/* Footer Section */}
-      <footer className="w-full px-8 py-4 border-t border-gray-500 flex justify-between items-center">
+      <footer className="w-full px-8 py-4 border-t border-gray-500 flex justify-between items-start">
         {/* Left side */}
         <div className="flex space-x-6">
           <a
@@ -116,20 +116,18 @@ function Contact() {
         </div>
 
         {/* Right side */}
-        <div className="text-gray-300">
-         Email - nickshan001@gmail.com
-        </div>
-
-        {/* Attribution */}
-        <div className="text-gray-500 text-center mt-4">
-          Illustrations by <a
-            href="https://storyset.com/"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="hover:underline"
-          >
-            Storyset
-          </a>.
+        <div className="text-gray-300 text-right">
+          Email - nickshan001@gmail.com
+          <div className="text-gray-500 mt-2">
+            Illustrations by <a
+              href="https://storyset.com/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className="hover:underline"
+            >
+              Storyset
+            </a>.
+          </div>
         </div>
       </footer>
 

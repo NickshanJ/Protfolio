@@ -128,7 +128,7 @@ function Projects() {
               {project.text}
             </p>
 
-            <p className="text-gray-400 mt-2">
+            <p className="text-gray-400 mt-2 text-center">
               {project.description}
             </p>
 
