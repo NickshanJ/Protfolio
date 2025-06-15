@@ -94,7 +94,7 @@ function Contact() {
       </div>
 
       {/* Footer Section */}
-      <footer className="w-full px-8 py-1 border-t border-gray-500 flex justify-between items-start">
+      <footer className="w-full px-8 py-4 border-t border-gray-500 flex justify-between items-start">
         {/* Left side */}
         <div className="flex space-x-6">
           <a

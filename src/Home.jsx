@@ -17,7 +17,7 @@ function HomePage() {
       <h1 className="text-[33px] md:text-[65px] font-bold mb-4 fill-text font-stylish">
         Hi, I'm J. Nickshan
       </h1>
-      <p className="text-[25px] md:text-3xl mb-4 font-stylish">
+      <p className="text-[25px] md:text-3xl mb-2 font-stylish">
         I'm a{" "}
         <DynamicText
           texts={["Front-End Developer", "MERN Full Stack Developer"]}
