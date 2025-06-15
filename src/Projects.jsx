@@ -19,7 +19,7 @@ const projects = [
     text: "Online Vehicle Rental Page",
     description:
       "An online platform to search and book vehicles for rent with ease.",
-    skills: ["MongoDB", "Express", "React", "Node", "Tailwind CSS", "Razorpay"],
+    skills: ["MongoDB", "Express", "React", "Node", "Tailwind", "Razorpay"],
     codeLinks: {
       frontend: "https://github.com/NickshanJ/Vehicle-Rental.git",
       backend: "https://github.com/NickshanJ/Vehicle-rental-server.git",
@@ -31,7 +31,7 @@ const projects = [
     alt: "Movies Search: Your Movie Journey Starts Here!",
     text: "Movies Search: Your Movie Journey Starts Here!",
     description: "Search and view movie details with pagination, routing, filtering, and favorites in a React application.",
-    skills: ["React", "React Router", "HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    skills: ["React","HTML", "CSS", "JavaScript", "Tailwind CSS"],
     codeLinks: {
       frontend: "https://github.com/NickshanJ/Movie-Search.git",
       backend: "https://github.com/NickshanJ/Movie-Search.git",
