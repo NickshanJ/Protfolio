@@ -6,15 +6,10 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import LandingPage from "./image/Landig Page.png";
 import MoviesSearch from "./image/Movies Search.png";
-import AddtoCart from "./image/Add to Cart.png";
-import Calculator from "./image/Calculator.png";
-import MemoryGame from "./image/Memory Game.png";
-import Landing2 from "./image/Landing 2.png";
-import PasswordReset from "./image/Password Reset.png";
 import VehicleRental from "./image/Vehicle Rental.png";
-import PortfolioImg from "./image/PortfolioImg.png";
+import Portal from "./image/Portal.png";
+import Event from "./image/Event.png";
 
 const projects = [
   {
@@ -43,46 +38,28 @@ const projects = [
     },
   },
   {
-    url: "https://router0.netlify.app/",
-    img: AddtoCart,
-    alt: "Product Preview Card Component",
-    text: "Add to Cart",
+    url: "https://moviesearch00.netlify.app/",
+    img: Portal,
+    alt: "Movies Search: Your Movie Journey Starts Here!",
+    text: "Movies Search: Your Movie Journey Starts Here!",
+    description: "This is a brief description of the Movies Search project.",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    codeLinks: {
+      frontend: "https://github.com/example/movies-search-frontend",
+      backend: "https://github.com/example/movies-search-backend",
+    },
   },
   {
-    url: "https://incomeexpensecalculator00.netlify.app/",
-    img: Calculator,
-    alt: "Product Preview Card Component",
-    text: "Income Expense Calculator",
-  },
-  {
-    url: "https://memorycardgame0.netlify.app/",
-    img: MemoryGame,
-    alt: "Product Preview Card Component",
-    text: "Memory Card Game",
-  },
-  {
-    url: "https://password-reset-0.netlify.app/",
-    img: PasswordReset,
-    alt: "Product Preview Card Component",
-    text: "Password Reset",
-  },
-  {
-    url: "https://coachingpage0.netlify.app/",
-    img: Landing2,
-    alt: "Product Preview Card Component",
-    text: "Landing Page 2",
-  },
-  {
-    url: "https://landing2page.netlify.app/",
-    img: LandingPage,
-    alt: "Product Preview Card Component",
-    text: "Landing Page",
-  },
-  {
-    url: "https://nickshanjportfolio.netlify.app/",
-    img: PortfolioImg,
-    alt: "Nickshan J Portfolio",
-    text: "PortFolio",
+    url: "https://moviesearch00.netlify.app/",
+    img: Event,
+    alt: "Movies Search: Your Movie Journey Starts Here!",
+    text: "Movies Search: Your Movie Journey Starts Here!",
+    description: "This is a brief description of the Movies Search project.",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    codeLinks: {
+      frontend: "https://github.com/example/movies-search-frontend",
+      backend: "https://github.com/example/movies-search-backend",
+    },
   },
 ];
 
