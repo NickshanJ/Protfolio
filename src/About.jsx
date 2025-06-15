@@ -1,7 +1,13 @@
 import React from "react";
 import profileImage from "./image/About Page.png";
 import resumePDF from "./assets/Nickshan Resume FS.pdf";
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaDownload } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaEnvelope,
+  FaWhatsapp,
+  FaDownload,
+} from "react-icons/fa";
 
 function About() {
   return (
@@ -11,20 +17,26 @@ function About() {
         <img
           src={profileImage}
           alt="Profile"
-          className="shadow-lg w-full md:w-1/2 aspect-auto border-2 border-[#fee71539]"
+          className="shadow-lg w-[80%] md:w-3/4 aspect-auto border-2 border-[#fee71539] rounded-3xl transform hover:scale-105 transition-transform duration-500"
         />
       </div>
       {/* Right side text */}
       <div className="w-full md:w-[60%] text-center md:text-left text-white space-y-6">
-        <h3 className="text-[33px] text-[#FEE715FF] font-stylish">Hello! I'm Nickshan</h3>
+        <h3 className="text-[33px] text-[#FEE715FF] font-stylish">
+          Hello! I'm Nickshan
+        </h3>
         <p className="text-[22px] font-stylish">
-        I'm a passionate Full Stack Developer with a talent for developing ideas into great digital experiences.
-         I enjoy designing visually beautiful and user-friendly websites, and I am interested in both front-end 
-         and back-end development.   Having worked with HTML5, CSS3, JavaScript, Tailwind, React.js, Node.js, 
-         Mongo DB, and Git, I'm excited to add new perspectives and energy to any team. What I value most about 
-         web development is the combination of creativity and rationality required.Each step of the process provides
-          an opportunity for learning and growth.   I am interested about staying current with industry innovations and 
-          continually developing my skills.   Please feel free to contact me..
+          I'm a passionate Full Stack Developer with a talent for developing
+          ideas into great digital experiences. I enjoy designing visually
+          beautiful and user-friendly websites, and I am interested in both
+          front-end and back-end development. Having worked with HTML5, CSS3,
+          JavaScript, Tailwind, React.js, Node.js, Mongo DB, and Git, I'm
+          excited to add new perspectives and energy to any team. What I value
+          most about web development is the combination of creativity and
+          rationality required.Each step of the process provides an opportunity
+          for learning and growth. I am interested about staying current with
+          industry innovations and continually developing my skills. Please feel
+          free to contact me..
         </p>
         <div className="flex justify-center md:justify-start space-x-4">
           <a
@@ -33,7 +45,8 @@ function About() {
             rel="noopener noreferrer"
             className="text-xl flex text-black bg-white px-2 py-1 rounded-[100px] hover:bg-[#FEE715FF] hover:scale-110 transition-transform items-center font-stylish"
           >
-            <FaDownload className="mr-2" />Resume
+            <FaDownload className="mr-2" />
+            Resume
           </a>
           {/* <a
             href="https://www.linkedin.com/in/nickshanj/"
