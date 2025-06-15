@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "./image/Nickshan.jpg";
+import profileImage from "./image/About Page.png";
 import resumePDF from "./assets/Nickshan Resume FS.pdf";
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaDownload } from "react-icons/fa";
 
@@ -33,9 +33,9 @@ function About() {
             rel="noopener noreferrer"
             className="text-xl flex text-black bg-white px-2 py-1 rounded-[100px] hover:bg-[#FEE715FF] hover:scale-110 transition-transform items-center font-stylish"
           >
-            <FaDownload className="mr-2" /> CV
+            <FaDownload className="mr-2" />Resume
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/nickshanj/"
             target="_blank"
             rel="noopener noreferrer"
@@ -64,7 +64,7 @@ function About() {
             className="text-xl flex items-center"
           >
             <FaWhatsapp className="mr-2 text-[25px] hover:scale-110 transition-transform hover:text-green-400" />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
