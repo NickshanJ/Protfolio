@@ -15,7 +15,7 @@ function HomePage() {
       <p className="text-[25px] md:text-3xl mb-8 font-stylish">
         I'm a <DynamicText texts={["Front-End Developer", "MERN Full Stack Developer"]} typingSpeed={50} pauseDuration={1500} />
       </p>
-      <div className="flex space-x-4">
+      {/* <div className="flex space-x-4">
         <a
           href="https://www.linkedin.com/in/nickshanj/"
           target="_blank"
@@ -48,7 +48,7 @@ function HomePage() {
         >
           <FaWhatsapp className="text-[20px] md:text-[30px]" />
         </a>
-      </div>
+      </div> */}
       <button className="mt-8 bg-[#FEE715FF] text-black px-2 py-1 md:px-4 md:py-2 rounded-[30px] hover:scale-110 transition-transform font-trade-winds">
         <Link to="/contact">CONNECT</Link>
       </button>
